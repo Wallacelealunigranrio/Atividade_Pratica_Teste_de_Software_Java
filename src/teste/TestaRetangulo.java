@@ -9,10 +9,12 @@ import dominio.Retangulo;
 public class TestaRetangulo {
 
 	@Test
-	public void test() {
+	public void testArea() {
 		 Retangulo calc = new Retangulo(6,2); 
 		 assertEquals(12, calc.area(), 0);
        }
+	public void testPerimetro() {
+		 Retangulo calc = new Retangulo(6,2); 
+		 assertEquals(16, calc.perimetro(), 0);
+      }
 	}
-
-
