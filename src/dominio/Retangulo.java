@@ -29,4 +29,9 @@ public class Retangulo {
 	public int area() {
 		return base*altura;
 	}
+	
+	public int perimetro() {
+		return 2*base + 2*altura;
+	}
+	
 }
