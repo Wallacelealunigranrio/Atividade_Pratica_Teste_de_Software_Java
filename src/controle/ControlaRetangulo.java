@@ -17,6 +17,7 @@ public class ControlaRetangulo {
         
         System.out.println("RESULTADOS");
         System.out.println("Area :" + res.area());
+        System.out.println("Perímetro :" + res.perimetro());
        
     }
 }
